@@ -10,7 +10,7 @@ pygame.font.init()
 pygame.display.set_caption("~ Game Of Life ~")
 screen = pygame.display.set_mode(size)
 
-matrix = grid(size, density=10)
+matrix = grid(size, density=4)
 
 title(screen)
 
